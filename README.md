@@ -9,3 +9,15 @@ The method "AC_3 + Heuristics + Backtracking" was found to be the fastest and th
 For more details on the project, algorithms, pseudocode, and time complexity, check the [paper](https://github.com/felipecacique/SudokuSolver/blob/main/Sudoku%20Solver%20-%20Felipe%20Vital.pdf).
 
 Author: Felipe Vital Cacique
+
+We will show a few Sudoku puzzles solved by the algorithm AC3HB. The bold characters are the initially filled cells.
+
+Very Hard Sudoku 9x9 solved by AC3HB in 0.11s.
+<img src="https://github.com/felipecacique/SudokuSolver/blob/main/img/sudoku_9x9.png" />
+
+Medium Sudoku 16x16 solved by AC3HB in 14s.
+<img src="https://github.com/felipecacique/SudokuSolver/blob/main/img/sudoku_16x16.png" />
+
+Very Hard Sudoku 25x25 solved by AC3HB in 37s.
+<img src="https://github.com/felipecacique/SudokuSolver/blob/main/img/sudoku_25x25.png" />
+
