@@ -4,7 +4,7 @@ Sudoku Solver
     Sudoku is known to be a Constraint Satisfactory Problem (CSP).
     This work implements diferent algorithms to solve a Sudoku of sizes 9x9, 16x16, 25x25, 
     including backtracking, arc consistency algorithm (AC3), and some heuristics. 
-    The method "AC_3 + Heuristics + Backtracking" is the fastest e more complete one. 
+    The method "AC_3 + Heuristics + Backtracking" was found to be the fastest and the most complete one.
     Author: Felipe Vital Cacique
 """
 
