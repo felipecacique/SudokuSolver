@@ -630,6 +630,16 @@ def PrintSolvedSudoku(csp,sudoku):
         print('', end='\n')
 
 
+def FormatSolvedSudoku(csp,sudoku):
+    # instead of printing, we will return the solved sudoku in an list of lists 
+
+    for x in csp.X:
+        if len(csp.D[x]) == 1: # sudoku is solved
+            sudoku[x[0]][x[1]]=csp.D[x][-1]
+        else: # sudoku is not solved
+            sudoku[x[0]][x[1]]=""
+
+    return sudoku
 
 
 
