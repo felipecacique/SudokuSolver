@@ -1,7 +1,7 @@
 # Creating an API that solves sudoku using the endpoit localhost/sudoku/solve (PUT)
 
 # Importing libraries
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 import numpy as np
 import time
 import queue
@@ -26,6 +26,13 @@ sudoku_example = [
     '9': ['', '', '5', '', '1', '', '3', '', '']
     }
 ]
+
+
+@app.route('/')
+def homepage():
+    return render_template("homepage.html")
+
+
 
 # editar
 @app.route('/sudoku/solve',methods=['PUT'])
