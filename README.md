@@ -23,3 +23,6 @@ Very Hard Sudoku 25x25 solved by AC3HB in 37s.
 
 <img src="https://github.com/felipecacique/SudokuSolver/blob/main/img/sudoku_25x25.png" />
 
+
+### Sudoku Solver API
+We have made available the use of our sudoku solver through an [API](https://github.com/felipecacique/SudokuSolver). The domain/route is http://felipecacique.pythonanywhere.com/sudoku/solve. Use the method PUT and send the sudoku in the JSON format like this [example](https://github.com/felipecacique/SudokuSolver/blob/main/json_example.txt).
