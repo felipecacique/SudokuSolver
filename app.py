@@ -33,8 +33,6 @@ def homepage():
     return render_template("homepage.html")
 
 
-
-# editar
 @app.route('/sudoku/solve',methods=['PUT'])
 def solve_sudoku():
     sudoku_json = request.get_json()
